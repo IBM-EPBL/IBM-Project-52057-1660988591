@@ -13,9 +13,10 @@
 <style>
 body
 {
-    background-image: url("https://i.pinimg.com/originals/be/21/1a/be211ad5043a8d05757a3538bdd8f450.jpg");
+    background-image: url("https://i.pinimg.com/736x/b3/50/47/b35047dc0cd424272cb500e53494f75a.jpg");
     background-size: cover;
-}
+}   
+
 .bar
 {
 margin: 0px;
@@ -51,19 +52,15 @@ padding-left:10px;
   margin: 20px;
   height: 500px;
 }
-
-
-
-
-
-.header {	position: relative;
+.header {	
+      position: relative;
 			top:0;	
 			margin:0px;
 			z-index: 1;
 			left: 0px;
 			right: 0px;
 			position: fixed;
-			background-color: #8B008B ;
+			background-color: hsl(123, 89%, 49%);
 			color: white;
 			box-shadow: 0px 8px 4px grey;
 			overflow: hidden;
@@ -89,12 +86,12 @@ padding-left:10px;
 }
 
 .topnav-right a:hover {
-  background-color: #FF69B4;
+  background-color: #f59ff2;
   color: black;
 }
 
 .topnav-right a.active {
-  background-color: #DA70D6;
+  background-color: #f59ff2;
   color: black;
 }
 
@@ -106,7 +103,7 @@ padding-left:10px;
 </head>
 <body>
 <div class="header">    
-<div style="width:50%;float:left;font-size:2vw;text-align:left;color:black; padding-top:1%;padding-left:5%;">Nutrtion Image Analysis</div>
+<div style="width:50%;float:left;font-size:2vw;text-align:left;color:black; padding-top:1%;padding-left:5%;">Nutrition Image Analysis</div>
   <div class="topnav-right"style="padding-top:0.5%;">
     
     <a href="{{ url_for('home')}}">Home</a>
